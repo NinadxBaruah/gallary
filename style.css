@@ -1,0 +1,69 @@
+.grid-container{
+   
+    /* background-color: red; */
+    height: 720px;
+    width: 1280px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(3,1fr);
+   grid-gap: 2rem;
+    margin: auto;
+    margin-top: 0px;
+}
+.grid-items{
+    background-color: aqua;
+    
+}
+/* .item1{
+    grid-column-start: 1;
+    grid-column-end: 3;
+   
+} */
+.grid-items:first-child{
+    grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 3;
+}
+.item6{
+    grid-column-start: 1;
+        grid-column-end: 3;
+}
+/* .item7 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+} */
+.item1 {
+    background-image: url(https://image.api.playstation.com/vulcan/ap/rnd/202011/0919/MZ92W6yp1LjqgN9crPaZxPhM.png);
+    background-size: cover;
+}
+.item2 {
+    background-image: url("https://www.pinkvilla.com/imageresize/ironmansocial_1.jpg?width=752&t=pvorg");
+       
+    background-size: cover;
+   
+}
+.item3{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBqRIzF9_RP6ur4qsVkcVpJ80ErRD4SdsBtw&usqp=CAU);
+    background-size: cover;
+}
+.item4{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR45mvRcAcQnCF3o9EQXKFLtG6aZo33fpXHow&usqp=CAU);
+    background-size: cover;
+}
+.item5{
+    background-image: url(https://im.rediff.com/movies/2019/mar/06captain-marvel1.jpg);
+    background-size: cover;
+}
+.item6{
+    background-image: url(https://wallpaper.dog/large/20338350.jpg);
+    
+    background-size: cover;
+}
+h1{
+    font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 64px;
+        margin-left: 105px;
+}
